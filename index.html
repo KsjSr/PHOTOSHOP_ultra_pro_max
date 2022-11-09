@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The PhotoShop Ultra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li class="lis">PhotoShop</li>
+        </ul>
+    </nav>
+    <div class="maincontainer">
+        <div class="container">
+            <div class="editing-side">
+                <div class="filters">
+                    <h3 class="h3">Adjust</h3>
+                    <!-- <label for="fil-checkbox" >Apply Adjust? -->
+                    <!-- <input type="checkbox" name="" id="check"> -->
+                </label>
+                    <div class="fil-box">
+                        <div class="fill" id="bright">Brightness</div>
+                        <div class="fill" id="contrast">Contrast</div>
+                        <div class="fill" id="opacity">Opacity</div>
+                        <div class="fill" id="saturation">Saturation</div>
+                        <div class="fill" id="hue">Hue</div>
+                        <div class="fill" id="none">None</div>
+                    </div>
+                </div>
+                <div class="level">
+                    <span id="which">None</span>
+                    <span id="parcent">0%</span>
+                    <input type="range" name="" value="100" min="0" max="200" id="range">
+                </div>
+                <div class="flips">
+                    <h3 class="h3">Flip</h3>
+                    <div class="flip-box">
+                    <button class="btn" id="up"><img src="flip-icon-23.jpg" class="icons" alt=""></button>
+                    <button class="btn" id="down"><img src="flip-icon-23 (1).jpg" class="icons icon2" alt=""></button>
+                    <button class="btn" id="right"><img src="flip-icon-13.jpg" class="icons" alt=""></button>
+                    <button class="btn" id="left"><img src="flip-icon-19.jpg" class="icons" alt=""></button>
+                </div>
+                </div>
+                
+                <div class="upload-save">
+                    <button class="another-btn select-img notSelected" id="select-img">Select</button>
+                    <button class="another-btn" id="download">Save</button>
+                </div>
+                <input type="file" name="" id="inp-file" hidden>
+            </div>
+            <!-- <hr> -->
+            <div class="image-side">
+                <img src="" alt="img" id="img">
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
